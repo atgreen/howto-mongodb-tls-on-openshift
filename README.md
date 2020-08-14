@@ -13,7 +13,7 @@ are databases.  For instance, accessing a mongodb cluster hosted on
 OpenShift from outside the cluster might involve using an externalIP
 service to map mongodb's 27107 port to a new IP exposed on a worker
 node in your cluster.  But what happens when you are talking about
-tens, hundreds or thousands of database instances.  IPs can be scarce
+tens, hundreds or thousands of database instances?  IPs can be scarce
 resources, and the management overhead of tracking IP usage can become
 problematic.
 
@@ -27,4 +27,6 @@ connections over the wire.  Mongodb is one such database.  The scripts
 and yaml files in this project show the steps required to establsh
 monogdb connections over normal OpenShift routes.
 
+Good luck!
 
+AG
