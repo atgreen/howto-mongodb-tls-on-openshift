@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Route
+metadata:
+  name: mongodb
+spec:
+  to:
+    kind: Service
+    name: mongodb-service
+  tls:
+    termination: passthrough
